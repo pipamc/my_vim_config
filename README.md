@@ -11,32 +11,8 @@ current folder, preview results, and open selected files.
 
 # How to install
 
-## 1. Install some needed tools
+curl -L https://raw.github.com/pimamc/my_vim_config/master/tools/prepare_mac.sh | sh
 
-For Mac OS, you can just run the [script](/tools/prepare_mac.sh). It will
-install some necessory tools and the latest vim (7.4) *with lua support*.
-
-    curl -L https://raw.github.com/liangxianzhe/oh-my-vim/master/tools/prepare_mac.sh | sh
-
-For Linux, there is no script yet. You need to figure out what the above script 
-does, and install them according (apt-get etc). Please note a vim with lua 
-support is required. 
-
-## 2. Install oh-my-vim:
-
-Run: [tools/install.sh](tools/install.sh)
-
-    curl -L https://raw.github.com/liangxianzhe/oh-my-vim/master/tools/install.sh | sh
-
-It will be installed to ~/.oh-my-vim folder.
-
-## 3. Set up font (optional):
-For a better looking [powerline](https://github.com/bling/vim-airline), you will
-need setting install a [patched font](https://github.com/bling/vim-airline#integrating-with-powerline-fonts).
-
-If you are using mac, the above script has installed a font [DroidSansMono](https://github.com/Lokaltog/powerline-fonts/tree/master/DroidSansMono)
-for you. Please set this font for your terminal. (For macvim or gvim, nothing
-need to be done. For iTerm2, go for Profile - Open Profile - Default - Edit Profile - Text - None-ASCII Font.)
 
 ## 4. Open vim:
 Open your vim, it will install a bunch of plugins at the first time. Close
@@ -372,19 +348,6 @@ easily.
     first char, you only have to press the __Delete__ key
 
     ![smartinput](http://joedicastro.com/static/pictures/smartinput_en.gif "smartinput")
-
-- __neocomplete__ auto-completion of keywords, methods, functions, etc by only
-  typing a few letters (normally the first). Well used, this speeds up a lot writing
-  of code or text. It improves the Vanilla Vim auto-completion, with a live
-  fuzzy-logic search. It's powerful and totally customizable.
-
-    ![neocomp](http://joedicastro.com/static/pictures/neocomp_en.gif "neocomp")
-
-    > __Mappings__
-
-    > - `<CR>`    insert the selected word
-    > - `<C-N>`   go to the next word (below) in the option list
-    > - `<C-P>`   go to the previous word (above) in the option list
 
 - __easydigraph__ easily insert digraphs, especially when trying to insert
   several simultaneously
@@ -1324,7 +1287,6 @@ this tool is a sure candidate for a disaster.
 - __loremipsum__ <https://github.com/vim-scripts/loremipsum>
 - __molokai__ <https://github.com/tomasr/molokai>
 - __neobundle.vim__ <https://github.com/Shougo/neobundle.vim>
-- __neocomplete.vim__ <https://github.com/Shougo/neocomplete.vim>
 - __po.vim--gray__ <https://github.com/vim-scripts/po.vim--gray>
 - __python-mode__ <https://github.com/klen/python-mode>
 - __summerfruit256.vim__ <https://github.com/vim-scripts/summerfruit256.vim>
