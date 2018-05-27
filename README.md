@@ -1374,3 +1374,4 @@ this tool is a sure candidate for a disaster.
 - __winresizer__ <https://github.com/jimsei/winresizer>
 - __zoomwintab.vim__ <https://github.com/vim-scripts/zoomwintab.vim>
 # my_vim_config
+# my_vim_config
