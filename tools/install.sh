@@ -10,7 +10,7 @@ if [ -d "$OH_MY_VIM" ]; then
 fi
 
 echo "\033[0;34mCloning Oh My Vim...\033[0m"
-hash git >/dev/null 2>&1 && /usr/bin/env git clone https://github.com/liangxianzhe/oh-my-vim.git $OH_MY_VIM || {
+hash git >/dev/null 2>&1 && /usr/bin/env git clone https://github.com/pipamc/my_vim_config.git $OH_MY_VIM || {
   echo "git not installed"
   exit
 }
